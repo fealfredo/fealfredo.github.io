@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.html" />
+    <script src="../../kit.fontawesome.com/bae59744c4.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="uploads/favicon-32x32.png" type="image/x-icon" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZRHTJM5MR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YZRHTJM5MR');
+    </script>
+
+  <title>Felipe Ricardo</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <!-- The video -->
+  <video autoplay muted loop id="myVideo">
+    <source src="uploads/background.mp4" type="video/mp4">
+  </video>
+
+  <!-- Page Content -->
+  <div class="main-container">
+    <div class="container">
+      <!--Profile Pic-->
+      <div class="profile-pic">
+        <div class="circle"></div>
+      </div>
+      <!--Layer-->
+      <div class="layer"></div>
+      <div class="details">
+        <h2>Felipe Ricardo </h2>
+        <p><b>{</b> Software Engineer <b>}</b></p>
+      </div><br>
+      <!--------------------------Skills----------------------------->
+      <div class="skills">
+
+        <!------------------------Bash Button------------------------>
+        <i class="bash" id="open">
+          <img src="uploads/icons8-bash-48.png" alt="BashScript" />
+        </i>
+        <!------------------------Modal bash------------------------->
+        <div class="modal_container" id="modal_container">
+          <div class="modal">
+            <h3>Bash Script</h3>
+            <p>permite a execução de sequências de comandos inseridos diretamente na linha de
+              comandos ("prompt"). </p>
+            <button class="button" id="close">Fechar</button><br>
+          </div>
+        </div>
+
+        <!-------------------HTML Button------------------------------>
+        <i class="html" id="open_html">
+          <img src="uploads/icons8-html-5-48.png" alt="" />
+        </i>
+        <!------------------Modal html-------------------------------->
+        <div class="modal_container_html" id="modal_container_html">
+          <div class="modal_html">
+            <h3>HTML</h3>
+            <p>é uma linguagem de marcação utilizada na construção de páginas na Web.</p>
+            <button class="button_html" id="close_html">Fechar</button><br>
+          </div>
+        </div>
+        <!------------------CSS Button-------------------------------->
+        <i class="css" id="open_css">
+          <img src="uploads/icons8-css3-48.png" alt="" />
+        </i>
+        <!------------------Modal CSS-------------------------------->
+        <div class="modal_container_css" id="modal_container_css">
+          <div class="modal_css">
+            <h3>CSS</h3>
+            <p>é um mecanismo para adicionar estilo a um documento web.</p>
+            <button class="button_css" id="close_css">Fechar</button><br>
+          </div>
+        </div>
+        <!------------------Js Button-------------------------------->
+        <i class="js" id="open_js">
+          <img src="uploads/icons8-javascript-48.png" alt="" />
+        </i>
+        <!------------------Modal JS-------------------------------->
+        <div class="modal_container_js" id="modal_container_js">
+          <div class="modal_js">
+            <h3>JavaScript</h3>
+            <p>é uma linguagem de programação interpretada, com tipagem dinâmica fraca e multiparadigma.</p>
+            <button class="button_js" id="close_js">Fechar</button><br>
+          </div>
+        </div>
+        <!------------------Python Button-------------------------------->
+        <i class="Python" id="open_python">
+          <img src="uploads/icons8-python-48.png" alt="" />
+        </i>
+        <!------------------Modal Python-------------------------------->
+        <div class="modal_container_python" id="modal_container_python">
+          <div class="modal_python">
+            <h3>Python</h3>
+            <p>é uma linguagem de programação de alto nível, interpretada, imperativa, orientada a
+              objetos, funcional, de tipagem dinâmica e forte.</p>
+            <button class="button_python" id="close_python">Fechar</button><br>
+          </div>
+        </div>
+        <!------------------Solidity Button-------------------------------->
+        <i class="Solidity" id="open_solidity">
+          <img src="uploads/icons8-solidity-48.png" alt="" />
+        </i>
+        <!------------------Modal Solidity-------------------------------->
+        <div class="modal_container_solidity" id="modal_container_solidity">
+          <div class="modal_solidity">
+            <h3>Solidity</h3>
+            <p>é uma linguagem de programação orientada a objetos para implementação de contratos inteligentes em
+              plataformas blockchain.</p>
+            <button class="button_solidity" id="close_solidity">Fechar</button><br>
+          </div>
+        </div>
+        <!------------------NextJs Button-------------------------------->
+        <i class="nextjs" id="open_next">
+          <img src="uploads/next_js_logo_icon_145038.png" alt="" />
+        </i>
+        <!------------------Modal NextJs-------------------------------->
+        <div class="modal_container_next" id="modal_container_next">
+          <div class="modal_next">
+            <h3>NextJs</h3>
+            <p>é uma estrutura de desenvolvimento web que permite muitas funcionalidades do lado do servidor e geração
+              de
+              sites para aplicativos.</p>
+            <button class="button_next" id="close_next">Fechar</button><br>
+          </div>
+        </div>
+        <!------------------GitHub Button-------------------------------->
+        <i class="github" id="open_git">
+          <img src="uploads/icons8-github-48.png" alt="" />
+        </i>
+        <!------------------Modal GitHub-------------------------------->
+        <div class="modal_container_git" id="modal_container_git">
+          <div class="modal_git">
+            <h3>GitHub</h3>
+            <p>é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.</p>
+            <button class="button_git" id="close_git">Fechar</button><br>
+          </div>
+        </div>
+        <!------------------Node Button-------------------------------->
+        <i class="node" id="open_node">
+          <img src="uploads/icons8-node-js-48.png" alt="" />
+        </i>
+        <!------------------Modal Node-------------------------------->
+        <div class="modal_container_node" id="modal_container_node">
+          <div class="modal_node">
+            <h3>NodeJs</h3>
+            <p>é um software, multiplataforma, que permite a
+              execução de códigos JavaScript fora do navegador.</p>
+            <button class="button_node" id="close_node">Fechar</button><br>
+          </div>
+        </div>
+        <!------------------Docker Button-------------------------------->
+        <i class="docker" id="open_docker">
+          <img src="uploads/icons8-docker-48.png" alt="" />
+        </i>
+        <!------------------Modal Docker-------------------------------->
+        <div class="modal_container_docker" id="modal_container_docker">
+          <div class="modal_docker">
+            <h3>Docker</h3>
+            <p> é um conjunto de produtos de plataforma que usam virtualização de nível de sistema
+              operacional para entregar software em pacotes chamados contêineres.</p>
+            <button class="button_docker" id="close_docker">Fechar</button><br>
+          </div>
+        </div>
+        <!------------------Kubernetes Button-------------------------------->
+        <i class="Kubernetes" id="open_kubernetes">
+          <img src="uploads/icons8-kubernetes-48.png" alt="" />
+        </i>
+        <!------------------Modal Kubernetes-------------------------------->
+        <div class="modal_container_kubernetes" id="modal_container_kubernetes">
+          <div class="modal_kubernetes">
+            <h3>Kubernetes</h3>
+            <p>é um sistema de orquestração de contêineres que automatiza a implantação, o dimensionamento e
+              a gestão de aplicações em contêineres.</p>
+            <button class="button_kubernetes" id="close_kubernetes">Fechar</button><br>
+          </div>
+        </div>
+        <!------------------Bitcoin Button-------------------------------->
+        <i class="btc" id="open_btc">
+          <img src="uploads/icons8-bitcoin-48.png" alt="" />
+        </i>
+        <!------------------Modal Bitcoin-------------------------------->
+        <div class="modal_container_btc" id="modal_container_btc">
+          <div class="modal_btc">
+            <h3>Bitcoin</h3>
+            <p>é uma criptomoeda descentralizada, para transações financeiras ponto a
+              ponto.</p>
+            <button class="button_btc" id="close_btc">Fechar</button><br>
+          </div>
+        </div><br>
+        <!-----------------Fim dos Modais--------------------------------->
+        <p class="saiba-mais">Clique em cada item para saber mais!</p>
+      </div><br>
+
+
+      <!--Button-->
+      <div class="btn">
+        <a href="https://www.linkedin.com/in/fealfredo/" target="_blank"><img src="uploads/linkedin.svg" alt=""></a>
+      </div><br>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
